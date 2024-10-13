@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = "C:/Users/aniru/Desktop/PythonProj/Imports_Exports_Dataset.csv"  # User-specified file path
-sample_df = pd.read_csv(file_path).sample(n=3001, random_state=55003)
+file_path = "dataset.csv"  # User-specified file path
+sample_df = pd.read_csv(file_path).sample(n=3001, random_state=55032)
 
 # Set up the Streamlit page configuration
 st.set_page_config(page_title="Imports/Exports Dashboard", layout="wide")
@@ -112,11 +112,11 @@ elif page == "Analysis Dashboard":
         
         # Updating heatmap_data with new values
         heatmap_data = pd.DataFrame({
-            "Clothing": [4927.00, 4994.90, 4982.45],
-            "Electronics": [4971.92, 4984.60, 4990.24],
-            "Furniture": [4965.92, 4928.60, 4993.26],
-            "Machinery": [4994.36, 4998.01, 4994.71],
-            "Toys": [4997.24, 4966.97, 4959.85]
+            "Clothing": [4897.66, 4992.70, 4982.45],
+            "Electronics": [4970.67, 4971.40, 4990.24],
+            "Furniture": [4992.64, 4941.45, 4970.20],
+            "Machinery": [4992.27, 4981.86, 4982.90],
+            "Toys": [4989.08, 4979.10, 4959.85]
         }, index=["Air", "Land", "Sea"])
         
         fig, ax2 = plt.subplots(figsize=(6, 3))
@@ -136,11 +136,13 @@ elif page == "Analysis Dashboard":
     with col8:
         st.subheader("Count of Products by Payment Terms per Category")
         payment_terms_data = pd.DataFrame({
-           "Cash on Delivery": [162, 137, 162, 149, 151],
-            "Net 30": [142, 151, 159, 142, 140],
-            "Net 60": [144, 142, 135, 162, 143],
-            "Prepaid": [148, 148, 159, 162, 163]
+         "Cash on Delivery": [140, 137, 162, 149, 151],
+         "Net 30": [159, 170, 164, 162, 135],
+         "Net 60": [169, 141, 131, 141, 148],
+         "Prepaid": [154, 164, 149, 139, 137]
         }, index=["Clothing", "Electronics", "Furniture", "Machinery", "Toys"])
+
+    
         fig, ax = plt.subplots(figsize=(10, 6))
         payment_terms_data.plot(kind="bar", stacked=True, ax=ax, color=["#339966", "#FFD700", "#3366CC", "#FF6699"] )
         ax.set_title("Product Count by Payment Term per Category (Stacked Bar Chart)")
@@ -152,10 +154,9 @@ elif page == "Analysis Dashboard":
 
     with col9:
         st.subheader("Category Ranking by Total Economic Impact")
-        
-        data={
+        data = {
         "Category": ["Furniture", "Toys", "Clothing", "Machinery", "Electronics"],
-        "Total Economic Impact in $": [3155020.10, 3001177.95, 2996226.27, 2992691.22, 2963909.82]
+        "Total Economic Impact ($)": [3045267.16, 2979683.13, 3103193.99, 2848285.31, 3290150.13]
         }
 
         economic_impact_data = pd.DataFrame(data)
@@ -175,10 +176,11 @@ elif page == "Analysis Dashboard":
     with col10:
         st.subheader("Average Value and Quantity of Top 5 Countries")
         data = {
-        "Country": ["Solomon Islands", "Switzerland", "Palau", "Somalia", "Guadeloupe"],
-        "Avg_Value": [6908.63, 6872.15, 6774.04, 6688.90, 6463.84],
-        "Avg_Quantity": [6367.50, 4426.23, 5343.90, 5449.82, 5405.83]
+        "Country": ["Swaziland", "Syrian Arab Republic", "Saint Lucia", "Sao Tome and Principe", "United States of America"],
+        "Avg_Value": [7507.34, 7227.58, 7009.74, 6931.87, 6930.72],
+        "Avg_Quantity": [5801.00, 3940.18, 4416.60, 5119.00, 5729.38]
         }
+      
 
         df = pd.DataFrame(data)
 
@@ -253,7 +255,7 @@ elif page == "Key Observations and Insights":
     - **3) Product and Payment Terms Preferences**: The stacked bar chart illustrates that  popular payment terms across categories are as below and thus Offering incentives aacording to these payment methods, it might improve cash flow and reduce risk:
        
         **Clothing**:
-        The most popular payment method is Cash on Delivery with 162 product counts.
+        The most popular payment method is Net30 with 162 product counts.
 
         **Electronics**:
         The most popular payment method is Net 30 with 151 product counts.
@@ -332,4 +334,4 @@ elif page == "Key Observations and Insights":
     """)
 
     # Optional footer for aesthetic purposes or additional information
-st.sidebar.info("Developed by [Anirudh Gupta- 055003]")
+st.sidebar.info("Developed by [Preksha Verma- 055032]")
