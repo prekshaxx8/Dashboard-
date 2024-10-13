@@ -244,7 +244,7 @@ elif page == "Key Observations and Insights":
     st.markdown("## Summary of Key Findings")
     st.markdown("""
     
-    - **1) Top Countries**: The countries with the highest import/export volumes i.e **Swaziland** in this analysis, are critical players and could offer strategic partnership opportunities. Focusing on these could enhance business reach and customer base.
+    - **1) Top Countries**: The countries with the highest import/export volumes i.e **Congo** in this analysis, are critical players and could offer strategic partnership opportunities. Focusing on these could enhance business reach and customer base.
     
     - **2) Maximum Weight per Shipping Method and Category** : 
         **Shipping Method Impact**: **"Air"** is generally suitable for lighter items, while "Land" and "Sea" can handle heavier shipments.
@@ -284,7 +284,7 @@ elif page == "Key Observations and Insights":
     st.markdown("## Managerial Insights")
     st.markdown("""
     1) Strategic Partnerships and Market Expansion:
-    Focus on High-Volume Countries: Prioritize countries like Swaziland for strategic partnerships to expand market reach.
+    Focus on High-Volume Countries: Prioritize countries like Congo for strategic partnerships to expand market reach.
     Optimize Shipping: Tailor shipping methods based on product weight and category to reduce costs and improve efficiency.
 
     2) Customer Preferences and Payment Terms:
@@ -300,7 +300,7 @@ elif page == "Key Observations and Insights":
     st.markdown("""
     
      **1) Category Focus**
-       - Prioritize High-Impact Categories: Given the significant economic impact of categories like "Furniture" allocate resources strategically to optimize marketing efforts and inventory planning for these products.
+       - Prioritize High-Impact Categories: Given the significant economic impact of categories like "Electronics" allocate resources strategically to optimize marketing efforts and inventory planning for these products.
        - Tailored Marketing Strategies: Develop targeted marketing campaigns for high-impact categories to maximize revenue and customer engagement.
 
      **2) Supply Chain Optimization**
@@ -308,7 +308,7 @@ elif page == "Key Observations and Insights":
        - Negotiate Contracts: Use the insights to negotiate better rates with shipping providers, especially for frequently used methods like "Sea".
 
      **3) Strategic Partnerships**
-       - Focus on Top Countries: Explore potential partnerships with countries like "Swaziland" to expand market reach and access new customer segments.
+       - Focus on Top Countries: Explore potential partnerships with countries like "Congo" to expand market reach and access new customer segments.
        - Tailored Strategies: Develop customized strategies for each country based on their unique trade characteristics (e.g., high-volume vs. high-value).
 
      **4) Operational Efficiency**
