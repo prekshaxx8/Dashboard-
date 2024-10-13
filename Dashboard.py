@@ -154,11 +154,10 @@ elif page == "Analysis Dashboard":
 
     with col9:
         st.subheader("Category Ranking by Total Economic Impact")
-        data = pd.DataFrame({
+        data = {
         "Category": ["Furniture", "Toys", "Clothing", "Machinery", "Electronics"],
-        "Total Economic Impact ($)": [3045267.16, 2979683.13, 3103193.99, 2848285.31, 3290150.13])
+        "Total Economic Impact in $": [3229667.61, 3046388.62, 2975353.81, 2940417.77, 2847889.43]
         }
-
         economic_impact_data = pd.DataFrame(data)
 
         # Create the pie chart with accurate colors and labels
