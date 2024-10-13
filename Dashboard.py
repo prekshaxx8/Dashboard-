@@ -273,7 +273,7 @@ elif page == "Key Observations and Insights":
     - **5) Average Value and Quantity of Top 5 Countries** : 
         **Swaziland** leads in average quantity traded **(5801 units)**, indicating a focus on high-volume transactions.
         **Swaziland** has the **highest average value (7501)**, indicating that it trades in fewer but higher-value products.
-       ** St. Lucia, Sao Tome and Principe** have relatively balanced profiles but show variations in the emphasis on either quantity or value.
+        ** St. Lucia, Sao Tome and Principe** have relatively balanced profiles but show variations in the emphasis on either quantity or value.
                 
     - **6) Top Product** : The most preferred product is **series**.
     
