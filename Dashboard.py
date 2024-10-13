@@ -334,4 +334,4 @@ elif page == "Key Observations and Insights":
     """)
 
     # Optional footer for aesthetic purposes or additional information
-st.sidebar.info("Developed by [Prakash Verma- 055032]")
+st.sidebar.info("Developed by [Preksha Verma- 055032]")
