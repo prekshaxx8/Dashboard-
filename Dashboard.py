@@ -154,9 +154,9 @@ elif page == "Analysis Dashboard":
 
     with col9:
         st.subheader("Category Ranking by Total Economic Impact")
-        data = {
+        data = pd.DataFrame({
         "Category": ["Furniture", "Toys", "Clothing", "Machinery", "Electronics"],
-        "Total Economic Impact ($)": [3045267.16, 2979683.13, 3103193.99, 2848285.31, 3290150.13]
+        "Total Economic Impact ($)": [3045267.16, 2979683.13, 3103193.99, 2848285.31, 3290150.13])
         }
 
         economic_impact_data = pd.DataFrame(data)
