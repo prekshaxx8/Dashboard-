@@ -244,7 +244,7 @@ elif page == "Key Observations and Insights":
     st.markdown("## Summary of Key Findings")
     st.markdown("""
     
-    - **1) Top Countries**: The countries with the highest import/export volumes i.e **Congo** in this analysis, are critical players and could offer strategic partnership opportunities. Focusing on these could enhance business reach and customer base.
+    - **1) Top Countries**: The countries with the highest import/export volumes i.e **Swaziland** in this analysis, are critical players and could offer strategic partnership opportunities. Focusing on these could enhance business reach and customer base.
     
     - **2) Maximum Weight per Shipping Method and Category** : 
         **Shipping Method Impact**: **"Air"** is generally suitable for lighter items, while "Land" and "Sea" can handle heavier shipments.
@@ -254,65 +254,65 @@ elif page == "Key Observations and Insights":
     - **3) Product and Payment Terms Preferences**: The stacked bar chart illustrates that  popular payment terms across categories are as below and thus Offering incentives aacording to these payment methods, it might improve cash flow and reduce risk:
        
         **Clothing**:
-        The most popular payment method is Net30 with 162 product counts.
+        The most popular payment method is Net60 with 169 product counts.
 
         **Electronics**:
-        The most popular payment method is Net 30 with 151 product counts.
+        The most popular payment method is Net 30 with 170 product counts.
 
         **Furniture**:
-        The most popular payment method is Cash on Delivery with 162 product counts.
+        The most popular payment method is Net30 with 164 product counts.
 
         **Machinery**:
-        The most popular payment method is Net 60 with 162 product counts.
+        The most popular payment method is Cash on Delivery with 162 product counts.
 
         **Toys**:
-        The most popular payment method is Prepaid with 163 product counts.
+        The most popular payment method is Cash on Delivery with 155 product counts.
    
-    - **4) Category Impact**: The categories with the highest economic impact—such as Furniture—should be prioritized for marketing and inventory planning as they contribute significantly to revenue.
+    - **4) Category Impact**: The categories with the highest economic impact—such as Electronic—should be prioritized for marketing and inventory planning as they contribute significantly to revenue.
     
     - **5) Average Value and Quantity of Top 5 Countries** : 
-        **Solomon Islands** leads in average quantity traded **(6,367.5 units)**, indicating a focus on high-volume transactions.
-        **Switzerland** has the **highest average value (6,872.15)**, indicating that it trades in fewer but higher-value products.
-       ** Palau, Somalia, and Guadeloupe** have relatively balanced profiles but show variations in the emphasis on either quantity or value.
+        **Swaziland** leads in average quantity traded **(5801 units)**, indicating a focus on high-volume transactions.
+        **Swaziland** has the **highest average value (7501)**, indicating that it trades in fewer but higher-value products.
+       ** St. Lucia, Sao Tome and Principe** have relatively balanced profiles but show variations in the emphasis on either quantity or value.
                 
-    - **6) Top Product** : The most preferred product is **travel**.
+    - **6) Top Product** : The most preferred product is **series**.
     
-    - **7) Shipping Methods**: The most frequently used shipping method is identified i.e **"Air"** in this case, indicating a preference that can streamline logistics operations. Investing in optimizing this method could lead to cost savings and efficiency.
+    - **7) Shipping Methods**: The most frequently used shipping method is identified i.e **"Sea"** in this case, indicating a preference that can streamline logistics operations. Investing in optimizing this method could lead to cost savings and efficiency.
 
     """)
 
     st.markdown("## Managerial Insights")
     st.markdown("""
     1) Strategic Partnerships and Market Expansion:
-    Focus on High-Volume Countries: Prioritize countries like Congo for strategic partnerships to expand market reach.
+    Focus on High-Volume Countries: Prioritize countries like Swaziland for strategic partnerships to expand market reach.
     Optimize Shipping: Tailor shipping methods based on product weight and category to reduce costs and improve efficiency.
 
     2) Customer Preferences and Payment Terms:
     Offer Incentives: Align payment incentives with popular payment methods to improve cash flow and reduce risk.
-    Prioritize Popular Products: Focus on products like travel to meet customer demand.
+    Prioritize Popular Products: Focus on products like series to meet customer demand.
 
     3) International Trade Analysis:
     Balance Quantity and Value: Understand the trade preferences of different countries to optimize product offerings.
-    Optimize Shipping: Invest in optimizing shipping methods, especially "Air," to reduce costs and improve efficiency.
+    Optimize Shipping: Invest in optimizing shipping methods, especially "Sea" to reduce costs and improve efficiency.
     """)
 
     st.markdown("## Recommendations")
     st.markdown("""
     
      **1) Category Focus**
-       - Prioritize High-Impact Categories: Given the significant economic impact of categories like "Furniture," allocate resources strategically to optimize marketing efforts and inventory planning for these products.
+       - Prioritize High-Impact Categories: Given the significant economic impact of categories like "Furniture" allocate resources strategically to optimize marketing efforts and inventory planning for these products.
        - Tailored Marketing Strategies: Develop targeted marketing campaigns for high-impact categories to maximize revenue and customer engagement.
 
      **2) Supply Chain Optimization**
        - Shipping Method Efficiency: Leverage the analysis of shipping methods and product categories to identify opportunities for optimizing logistics processes and reducing costs.
-       - Negotiate Contracts: Use the insights to negotiate better rates with shipping providers, especially for frequently used methods like "Air."
+       - Negotiate Contracts: Use the insights to negotiate better rates with shipping providers, especially for frequently used methods like "Sea".
 
      **3) Strategic Partnerships**
-       - Focus on Top Countries: Explore potential partnerships with countries like "Congo" to expand market reach and access new customer segments.
+       - Focus on Top Countries: Explore potential partnerships with countries like "Swaziland" to expand market reach and access new customer segments.
        - Tailored Strategies: Develop customized strategies for each country based on their unique trade characteristics (e.g., high-volume vs. high-value).
 
      **4) Operational Efficiency**
-       - Optimize Shipping Method: Since "Air" is the most frequently used method, invest in improving its efficiency through technology, infrastructure, or partnerships.
+       - Optimize Shipping Method: Since "Sea" is the most frequently used method, invest in improving its efficiency through technology, infrastructure, or partnerships.
        - Inventory Management: Align inventory levels with the popularity of different product categories and shipping methods to minimize stockouts and excess inventory.
 
      **5) Payment Terms Optimization**
@@ -320,7 +320,7 @@ elif page == "Key Observations and Insights":
        - Risk Management: Monitor cash-on-delivery trends to assess risk and implement appropriate measures.
 
      **6) Product Strategy**
-       - Leverage Product Popularity: Focus on expanding the product range related to "travel" to capitalize on its popularity.
+       - Leverage Product Popularity: Focus on expanding the product range related to "series" to capitalize on its popularity.
        - Diversification: Explore opportunities to diversify product offerings and reduce dependence on a single category.
 
 
